@@ -1,0 +1,35 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+header{
+    display:flex;
+    justify-content: center;
+   
+}
+.albumsiphone{
+    display:flex;
+    justify-content: space-between;
+}
+.displayalbumLarge{
+    display:none;
+}
+
+h3, Artists{
+    display:flex;
+    justify-content: center;
+}
+
+h4{
+    display:flex;
+    justify-content: center;
+}
+@media only screen and (min-width:480px){
+    .displayalbumiphone{
+        display: none;
+    }
+    .displayalbumLarge{
+        display: flex;
+        justify-content: center;
+        /* justify-content: space-between; */
+    }
+}
